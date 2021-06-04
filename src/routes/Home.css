@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+.container,
+.movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  align-items: center;
+  background-color: #cfe9ec;
+  flex-wrap: wrap;
+}
+
+.container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 30px;
+}
