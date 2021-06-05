@@ -1,0 +1,16 @@
+.navigation__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 30px;
+  background-color: #f2f2f2;
+  font-size: 12px;
+  padding: 30px;
+  box-shadow: 5px 5px 7px -2px #000000;
+}
+
+.navigation__content {
+  text-decoration: none;
+  margin-bottom: 5px;
+}

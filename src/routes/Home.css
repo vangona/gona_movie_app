@@ -8,8 +8,7 @@ body {
 }
 
 body,
-.container,
-.movies {
+.container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -21,7 +20,8 @@ body {
   flex-wrap: wrap;
 }
 
-.container {
+.container,
+.movies {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 30px;
