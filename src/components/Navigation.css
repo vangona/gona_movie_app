@@ -1,16 +1,32 @@
 .navigation__container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
   margin: 30px;
   background-color: #f2f2f2;
-  font-size: 12px;
+  font-size: 14px;
   padding: 30px;
   box-shadow: 5px 5px 7px -2px #000000;
 }
 
-.navigation__content {
+.navigation__container * {
   text-decoration: none;
-  margin-bottom: 5px;
+}
+
+.navigation__container *:first-child {
+  margin-bottom: 10px;
+}
+
+.navigation__container *:active {
+  transform: scale(0.98);
+}
+
+.navigation__container *:visited {
+  color: inherit;
 }

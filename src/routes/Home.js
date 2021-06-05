@@ -24,6 +24,7 @@ class Home extends React.Component{
           <span className="loader__text">Loading...</span>
         </div>
       ) : (
+        <h1>MOVIE</h1>,
         <div className="movies">
           { movies.map(movie => (
             <Movie 
